@@ -1,0 +1,29 @@
+msgid "plugins.generic.webchatNagastra.displayName"
+msgstr "Webchat Nagastra"
+
+msgid "plugins.generic.webchatNagastra.description"
+msgstr "Adds a webchat JavaScript widget to OJS pages."
+
+msgid "plugins.generic.webchatNagastra.manager.settings"
+msgstr "Webchat Nagastra Settings"
+
+msgid "plugins.generic.webchatNagastra.form.enabled"
+msgstr "Enable webchat"
+
+msgid "plugins.generic.webchatNagastra.form.scriptUrl"
+msgstr "Webchat Script URL"
+
+msgid "plugins.generic.webchatNagastra.form.scriptUrlHelp"
+msgstr "Enter the webchat JavaScript URL, for example: https://chat.nagastra.org/widget.js"
+
+msgid "plugins.generic.webchatNagastra.form.position"
+msgstr "Display On"
+
+msgid "plugins.generic.webchatNagastra.form.position.frontend"
+msgstr "Journal frontend only"
+
+msgid "plugins.generic.webchatNagastra.form.position.all"
+msgstr "All pages"
+
+msgid "plugins.generic.webchatNagastra.error.invalidUrl"
+msgstr "The script URL is invalid. Use a valid http or https URL."

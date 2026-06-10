@@ -1,0 +1,29 @@
+msgid "plugins.generic.webchatNagastra.displayName"
+msgstr "Webchat Nagastra"
+
+msgid "plugins.generic.webchatNagastra.description"
+msgstr "Plugin untuk menambahkan script webchat ke halaman OJS."
+
+msgid "plugins.generic.webchatNagastra.manager.settings"
+msgstr "Pengaturan Webchat Nagastra"
+
+msgid "plugins.generic.webchatNagastra.form.enabled"
+msgstr "Aktifkan webchat"
+
+msgid "plugins.generic.webchatNagastra.form.scriptUrl"
+msgstr "URL Script Webchat"
+
+msgid "plugins.generic.webchatNagastra.form.scriptUrlHelp"
+msgstr "Masukkan URL JavaScript webchat, contoh: https://chat.nagastra.org/widget.js"
+
+msgid "plugins.generic.webchatNagastra.form.position"
+msgstr "Tampilkan Pada"
+
+msgid "plugins.generic.webchatNagastra.form.position.frontend"
+msgstr "Frontend jurnal saja"
+
+msgid "plugins.generic.webchatNagastra.form.position.all"
+msgstr "Semua halaman"
+
+msgid "plugins.generic.webchatNagastra.error.invalidUrl"
+msgstr "URL script tidak valid. Gunakan URL http atau https yang benar."
