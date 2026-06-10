@@ -13,7 +13,7 @@ $(function() {ldelim}
     {csrf}
 
     {fbvFormArea id="webchatNagastraSettingsArea"}
-        {fbvFormSection}
+        {fbvFormSection list=true}
             {fbvElement
                 type="checkbox"
                 id="webchatEnabled"
@@ -35,7 +35,7 @@ $(function() {ldelim}
             <p class="pkp_help">{translate key="plugins.generic.webchatNagastra.form.scriptUrlHelp"}</p>
         {/fbvFormSection}
 
-        {fbvFormSection title="plugins.generic.webchatNagastra.form.position"}
+        {fbvFormSection title="plugins.generic.webchatNagastra.form.position" list=true}
             <select name="position" id="position" class="selectMenu">
                 <option value="frontend"{if $position == 'frontend'} selected="selected"{/if}>{translate key="plugins.generic.webchatNagastra.form.position.frontend"}</option>
                 <option value="all"{if $position == 'all'} selected="selected"{/if}>{translate key="plugins.generic.webchatNagastra.form.position.all"}</option>

@@ -23,6 +23,14 @@ class WebchatNagastraPlugin extends GenericPlugin
     public const SETTING_POSITION = 'position';
 
     /**
+     * Get the symbolic name of this plugin.
+     */
+    public function getName(): string
+    {
+        return 'WebchatNagastraPlugin';
+    }
+
+    /**
      * Register plugin.
      */
     public function register($category, $path, $mainContextId = null): bool
